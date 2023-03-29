@@ -5,11 +5,11 @@
 
 ## 5 exercicios sequenciais :
 
-- Faça um programa que solicite ao usuário dois números e exiba a soma deles.
-- Crie um programa que peça a idade do usuário e exiba a quantidade de dias que ele já viveu.
-- Escreva um programa que calcule a área de um triângulo, solicitando ao usuário a base e a altura.
-- Faça um programa que leia o nome e a idade de três pessoas e exiba a média das idades.
-- Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit.
+- Faça um programa que solicite ao usuário dois números e exiba a soma deles.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20sequencial/Exercicio1.py)
+- Crie um programa que peça a idade do usuário e exiba a quantidade de dias que ele já viveu.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20sequencial/Exercicio1.py)
+- Escreva um programa que calcule a área de um triângulo, solicitando ao usuário a base e a altura.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20sequencial/Exercicio3.py)
+- Faça um programa que leia o nome e a idade de três pessoas e exiba a média das idades.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20sequencial/Exercicio4.py)
+- Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20sequencial/Exercicio5.py)
 
 ## 5 Exercícios de repetição:
 
@@ -78,5 +78,23 @@ Linting é um processo de análise estática de código que verifica automaticam
 Os linters podem ser usados em várias linguagens de programação e geralmente são executados durante a compilação ou antes da execução do código. Eles analisam o código fonte e procuram por problemas comuns, como variáveis não declaradas, declarações de retorno ausentes, espaços em branco desnecessários e muitos outros.
 
 O linting é útil porque pode ajudar a encontrar erros de código antes que o programa seja executado, o que pode economizar muito tempo e esforço na depuração e correção de erros. Ele também pode ajudar a garantir que o código seja fácil de ler e entender, o que é especialmente importante em projetos grandes e complexos, onde várias pessoas podem estar trabalhando no mesmo código.
-  
 
+# O que eu aprendi fazendo a primeira lista :
+
+## O comando input() : 
+input(): a função input() é usada para solicitar ao usuário uma entrada a partir do teclado. Ela retorna uma string.
+```
+nome = input("Digite o seu nome: ")
+```
+## A função int : 
+int(): a função int() é usada para converter uma string em um número inteiro.
+```
+idade = int(input("Digite a sua idade: "))
+```
+## O método  .format() :
+ o método .format() é usado para formatar uma string, inserindo valores em espaços reservados por chaves {}. Os valores são passados como argumentos na ordem em que aparecem nas chaves.
+ ```
+nome = "João"
+idade = 25
+print("O meu nome é {} e eu tenho {} anos".format(nome, idade))
+```
