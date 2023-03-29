@@ -21,11 +21,11 @@
 
 ## 5 Exercícios de condicional:
 
-- Faça um programa que leia a idade do usuário e informe se ele pode ou não dirigir.
-- Crie um programa que solicite ao usuário um número inteiro e informe se ele é par ou ímpar.
-- Escreva um programa que solicite ao usuário um número e informe se ele é positivo, negativo ou zero.
-- Faça um programa que leia o peso e a altura de uma pessoa e informe se ela está ou não dentro do peso ideal (IMC entre 18,5 e 25).
-- Crie um programa que solicite ao usuário a idade e a altura de uma pessoa e informe se ela pode ou não entrar em um brinquedo de parque de diversões.
+- Faça um programa que leia a idade do usuário e informe se ele pode ou não dirigir.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20condicional/Exercicio-condicional1.py)
+- Crie um programa que solicite ao usuário um número inteiro e informe se ele é par ou ímpar.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20condicional/Exercicio-condicional2.py)
+- Escreva um programa que solicite ao usuário um número e informe se ele é positivo, negativo ou zero.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20condicional/Exercicio-condicional3.py)
+- Faça um programa que leia o peso e a altura de uma pessoa e informe se ela está ou não dentro do peso ideal (IMC entre 18,5 e 25).[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20condicional/Exercicio-condicional4.py)
+- Crie um programa que solicite ao usuário a idade e a altura de uma pessoa e informe se ela pode ou não entrar em um brinquedo de parque de diversões.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20condicional/Exercicio-condicional5.py)
 
 ## EXEMPLO DE SINTAXE EM PYTHON
 ```
@@ -97,4 +97,42 @@ idade = int(input("Digite a sua idade: "))
 nome = "João"
 idade = 25
 print("O meu nome é {} e eu tenho {} anos".format(nome, idade))
+```
+# O que eu aprendi fazendo a  lista de condicional :
+## O comando if :
+```
+if condicao:
+    # bloco de codigo a ser executado se a condicao for verdadeira
+```
+O if é uma estrutura condicional em Python que permite que um bloco de código seja executado apenas se uma determinada condição for verdadeira.
+Ou seja, se a condição especificada após o if for verdadeira, o bloco de código indentado abaixo do if será executado. Caso contrário, o bloco de código não será executado.
+
+Além disso, o if pode ser combinado com outras estruturas condicionais, como o else e o elif. A sintaxe completa fica assim:
+```
+if condicao1:
+    # bloco de codigo a ser executado se a condicao1 for verdadeira
+elif condicao2:
+    # bloco de codigo a ser executado se a condicao2 for verdadeira e a condicao 1 for falsa
+else:
+    # bloco de codigo a ser executado se todas as condicoes anteriores forem falsas
+```
+## O comando float :
+```
+float é um tipo de dado em Python que representa números de ponto flutuante, ou seja, números com casas decimais.
+x = float("3.14")
+print(x) # exibe 3.14
+```
+## Indentação 
+a indentação é usada para delimitar blocos de código, e a indentação do bloco if e dos blocos elif e else devem estar alinhados.
+É recomendado utilizar quatro espaços em branco para a indentação em Python. Por exemplo:
+```
+if condicao:
+    # bloco de codigo dentro do if, com 4 espaços de indentacao
+    # aqui vao as instrucoes a serem executadas se a condicao for verdadeira
+elif outra_condicao:
+    # bloco de codigo dentro do elif, com 4 espaços de indentacao
+    # aqui vao as instrucoes a serem executadas se a outra condicao for verdadeira
+else:
+    # bloco de codigo dentro do else, com 4 espaços de indentacao
+    # aqui vao as instrucoes a serem executadas se todas as condicoes anteriores forem falsas
 ```
