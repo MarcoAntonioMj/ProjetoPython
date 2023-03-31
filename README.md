@@ -15,7 +15,7 @@
 
 - Faça um programa que imprima todos os números pares de 0 a 100.
 - Escreva um programa que solicite ao usuário números inteiros até que ele digite 0. Em seguida, exiba a soma dos números digitados.
-- Crie um programa que leia o nome e a nota de cinco alunos e exiba a média de cada um.
+- Crie um programa que leia o nome e 3 notas de cinco alunos e exiba a média de cada um.
 - Faça um programa que exiba a tabuada de multiplicação de um número informado pelo usuário, de 1 a 10.
 - Escreva um programa que leia números inteiros positivos do usuário e exiba a média deles, até que o usuário digite um número negativo.
 
