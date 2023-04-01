@@ -98,7 +98,7 @@ nome = "João"
 idade = 25
 print("O meu nome é {} e eu tenho {} anos".format(nome, idade))
 ```
-# O que eu aprendi fazendo a  lista de condicional :
+# O que eu aprendi fazendo a  terceira lista :
 ## O comando if :
 ```
 if condicao:
@@ -136,3 +136,47 @@ else:
     # bloco de codigo dentro do else, com 4 espaços de indentacao
     # aqui vao as instrucoes a serem executadas se todas as condicoes anteriores forem falsas
 ```
+# O que eu aprendi fazendo a segunda lista :
+## O Whhile :
+O while é uma estrutura de controle de fluxo de repetição em Python que permite executar um bloco de código repetidamente enquanto uma determinada condição for verdadeira.
+
+A sintaxe do while em Python é a seguinte:
+```
+while condicao:
+    # codigo a ser executado enquanto a condicao for verdadeira
+```
+A condição é uma expressão booleana que deve ser avaliada como verdadeira ou falsa. Enquanto a condição for verdadeira, o código dentro do bloco de instruções do while será executado repetidamente. Assim que a condição se tornar falsa, a execução do programa continuará a partir da próxima instrução após o bloco while.
+
+Por exemplo, o seguinte código utiliza um while para imprimir os números de 1 a 10:
+```
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+```
+Neste exemplo, a variável i é inicializada com o valor 1. Em seguida, o while é executado enquanto i for menor ou igual a 10. Dentro do bloco while, o valor de i é impresso na tela e, em seguida, é incrementado em 1. Isso é repetido até que i seja igual a 11 e a condição do while se torne falsa.
+## O For : 
+O for é outra estrutura de controle de fluxo de repetição em Python que permite executar um bloco de código repetidamente para cada item em uma sequência.
+
+A sintaxe do for em Python é a seguinte:
+```
+for item in sequencia:
+    # codigo a ser executado para cada item na sequencia
+```
+Aqui, sequencia pode ser qualquer objeto que suporte a iteração, como uma lista, uma tupla, um conjunto ou uma string. A cada iteração do for, o próximo item da sequência é atribuído à variável item, e o código dentro do bloco de instruções é executado.
+
+Por exemplo, o seguinte código utiliza um for para imprimir os números de 1 a 10:
+```
+for i in range(1, 11):
+    print(i)
+```
+Neste exemplo, a função range() é usada para gerar uma sequência de números de 1 a 10. O for itera sobre essa sequência e a cada iteração, o valor atual é atribuído à variável i, que é impressa na tela.
+
+O for é especialmente útil para iterar sobre coleções de dados, como listas e dicionários. Por exemplo, o seguinte código usa um for para imprimir cada item em uma lista de frutas:
+```
+frutas = ["maçã", "banana", "laranja"]
+for fruta in frutas:
+    print(fruta)
+```
+Neste exemplo, o for itera sobre a lista de frutas e a cada iteração, o próximo item é atribuído à variável fruta, que é impressa na tela.
+
