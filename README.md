@@ -13,11 +13,11 @@
 
 ## 5 Exercícios de repetição:
 
-- Faça um programa que imprima todos os números pares de 0 a 100.
-- Escreva um programa que solicite ao usuário números inteiros até que ele digite 0. Em seguida, exiba a soma dos números digitados.
-- Crie um programa que leia o nome e 3 notas de cinco alunos e exiba a média de cada um.
-- Faça um programa que exiba a tabuada de multiplicação de um número informado pelo usuário, de 1 a 10.
-- Escreva um programa que leia números inteiros positivos do usuário e exiba a média deles, até que o usuário digite um número negativo.
+- Faça um programa que imprima todos os números pares de 0 a 100.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20de%20repeti%C3%A7%C3%A3o/exercicio1.py)
+- Escreva um programa que solicite ao usuário números inteiros até que ele digite 0. Em seguida, exiba a soma dos números digitados.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20de%20repeti%C3%A7%C3%A3o/exercicio2.py)
+- Crie um programa que leia o nome e 3 notas de cinco alunos e exiba a média de cada um.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20de%20repeti%C3%A7%C3%A3o/exercicio3.py)
+- Faça um programa que exiba a tabuada de multiplicação de um número informado pelo usuário, de 1 a 10.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20de%20repeti%C3%A7%C3%A3o/exercicio4.py)
+- Escreva um programa que leia números inteiros positivos do usuário e exiba a média deles, até que o usuário digite um número negativo.[clique aqui para ver a resposta](https://github.com/MarcoAntonioMj/ProjetoPython/blob/main/Exercicios%20de%20repeti%C3%A7%C3%A3o/exercicio5.py)
 
 ## 5 Exercícios de condicional:
 
